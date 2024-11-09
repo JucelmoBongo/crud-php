@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#tabela {
+    width: 50%;
+    margin: 25px;
+    float: left;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px 30px;
+}
+
+tr:nth-child(even) {
+    background-color: gainsboro;
+}
+
+.botao {
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    border-radius: 7px;
+}
+
+.editar {
+    background-color: blue;
+}
+.apagar {
+    background-color: red;
+}
+
+table thead {
+    background-color: green;
+    color: #fff;
+}
+
+/* FORMULÁRIO DE CADASTRO */
+
+#formulario{
+    width: 30%;
+    border: 2px solid green;
+    padding: 10px;
+    float: right;
+    margin: 25px;
+}
+
+label {
+    margin: 13px 0;
+    font-size: 24px;
+}
+
+input {
+    padding: 10px   ;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="submit"] {
+    width: 50%;
+    margin: 10px 0;
+    border: 0;
+    background-color: green;
+    color: white;
+    border-radius: 7px;
+    cursor: pointer;
+}
